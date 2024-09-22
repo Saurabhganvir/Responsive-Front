@@ -279,7 +279,9 @@ nav{
     display: flex;
     position: relative;
     align-items: center;
-    padding: 4vw;
+    /* padding-top: 2vw; */
+    padding-bottom: 3vh;
+    padding-left: 4vw;
 }
 
 #page2-bottom2 #bottom2-dot{
@@ -290,7 +292,7 @@ nav{
 }
 
 #page2-bottom2 p{
-    font-size: 3vw;
+    font-size: 3.2vh;
     padding-left: 1vw;
 }
 
@@ -301,20 +303,26 @@ nav{
 }
 
 .elem{
-    height: 9vh;
+    height: 8vw;
     width: 100%;
     /* background-color: rgb(197, 197, 197); */
     display: flex;
     align-items: center;
     padding: 0 4vw;
+    justify-content: space-between;
     /* border-top: 1px solid purple; */
     border-bottom: 1px solid rgb(204, 204, 204);
     position: relative;
     overflow: hidden;
 }
 
+.elem .elemLeft{
+    display: flex;
+    align-items: center;
+}
+
 .elem h2{
-    font-size: 4vw;
+    font-size: 3.5vw;
     position: absolute;
     z-index: 9;
 }
@@ -331,4 +339,19 @@ nav{
 
 .elem:hover .overlay{
     top: 0;
+}
+
+.elem .elemRight{
+    padding: 0 2vw;
+    text-align: end;
+    z-index: 10;
+}
+
+.elem .elemRight h4{
+    font-size: 3vh;
+}
+
+.elem .elemRight p{
+    font-size: 2.5vh;
+    color: rgb(107, 105, 105); 
 }
