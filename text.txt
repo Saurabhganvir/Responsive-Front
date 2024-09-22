@@ -2,3 +2,6 @@ for animation we have used Keyframes
 for scrolling we have integrated locomotive js library
 for favicon we used website favicon.io
 we are also using gsap and gsap scrolltrigger
+custom attributes -we can make our own attributes for any div/tag
+getAttributes and setAttributes can be used for various purposes
+Node list is slightly similar to array list
