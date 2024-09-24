@@ -5,3 +5,6 @@ we are also using gsap and gsap scrolltrigger
 custom attributes -we can make our own attributes for any div/tag
 getAttributes and setAttributes can be used for various purposes
 Node list is slightly similar to array list
+Swiper js from swiperjs.com both te cdns are available (js and css)
+Responsive Design is making your design viable for different screen sizes, devices
+uses studio max-with to redefine properties for elements and components

@@ -10,6 +10,12 @@ html, body{
     width: 100%;
 }
 
+#main{
+    /* background-color: black; */
+    position: relative;
+    z-index: 10;
+}
+
 #page1{
     min-height: 100vh;
     width: 100vw;
@@ -368,4 +374,33 @@ nav{
     display: none;
     background-size: cover;
     background-position: center;
+}
+
+
+#page4{
+    height: 60vh;
+    width: 100%;
+    background-color: #EFEAE3;
+}
+
+#page5{
+    height: 100vh;
+    width: 100%;
+}
+
+#footer{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    z-index: 9;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#footer h1{
+    font-size: 16vw;
 }
